@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(192, 192, 194);
+    color: black;
+    font-size: 80%;
+    line-height: 1.5;
+    text-align: right;
+    width: 70%;
+    margin: 10px auto;
+    clear: both;
+}
+    
+#contact1{
+    padding: 4rem 0;
+
+}
+.container h2{
+   font-size: 150%;
+    color: black;
+    margin-top: -5px;
+    padding: 5px 5px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px black;
+}
+.container h2 .text-primary{
+    font-size: 300%;
+    color: rgb(90, 84, 84);
+    margin-top: -5px;
+    padding: 5px 5px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px black;
+}
+#contact1 .row{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: white;
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.2);
+    padding: 2rem 3rem ;
+    border-radius: 10px;
+    column-gap: 2rem;
+}
+#contact1 .row input ,#contact1 .row textarea
+ {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    outline: none;
+    background-color: rgb(235, 231, 231);
+    border:1px solid rgb(107, 99, 98);
+
+
+}
+#contact1 .row img{
+    width: 450px;
+    height: 350px;
+}
+.btn-primary{
+    background-color:rgb(44, 39, 38);
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color:rgb(184, 179, 178);
+    border:2px solid black;
+}
+footer{
+    margin-top: 2%;
+    padding: -5px;
+    float: right;
+    width: 100%;
+    background-image: url("../img33/uuu.jpg");
+    height: 120px;
+    border-radius: 5px;
+    
+}
+footer nav{
+    text-align: center;
+
+}
+footer .foot2
+{
+    width: 100%;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    padding: 8px;
+    margin-top: 30px;
+}
+.foot2:hover{
+        background-color:rgb(75, 68, 66);
+        border:2px solid black;
+}
